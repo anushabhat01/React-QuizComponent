@@ -6,6 +6,7 @@ class QuizQuestion extends Component{
         
         return(
         <main>
+        
         <section>
          <p>{this.props.quiz_question.instruction_text}</p>
         </section>
