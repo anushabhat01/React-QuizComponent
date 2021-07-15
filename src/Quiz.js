@@ -1,6 +1,6 @@
-import { render } from 'enzyme'
+
 import React, { Component } from 'react'
-let quizdata = require('./quiz_data.json')
+let quizData = require('./quiz_data.json')
 class Quiz extends Component{
 constructor(props){
     super(props)
@@ -8,7 +8,7 @@ constructor(props){
 }
 
 render(){
-    return( <div><div className="QuizQuestion">{quizdata.quiz_questions[0].instruction_text}</div></div>)
+    return( <div><div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div></div>)
 }
 }
 export default Quiz
