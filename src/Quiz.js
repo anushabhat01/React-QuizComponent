@@ -8,7 +8,7 @@ constructor(props){
 }
 
 render(){
-    return( <div><div className="QuizQuestion"></div></div>)
+    return( <div><div className="QuizQuestion">{quizdata.quiz_questions[0].instruction_text}</div></div>)
 }
 }
 export default Quiz
