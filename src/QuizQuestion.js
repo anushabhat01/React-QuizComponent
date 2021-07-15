@@ -3,6 +3,7 @@ import QuizQuestionButton from './QuizQuestionButton.js'
 
 class QuizQuestion extends Component{
     render(){
+        
         return(
         <main>
         <section>
