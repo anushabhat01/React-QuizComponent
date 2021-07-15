@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 
 class QuizQuestion extends Component{
     render(){
-        return(<main>
+        return(
+        <main>
         <section>
-          <p>// instruction text goes here</p>
+         <p>{this.props.quiz_question.istruction_text}</p>
         </section>
         <section className="buttons">
           <ul>
-            <li>{this.props.QuizQuestion.asweroptions[0].instructionOption}</li>
+            <li>{this.props.quiz_question.aswer_options[0]}</li>
           </ul>
         </section>
       </main>
